@@ -55,7 +55,7 @@ public class Main {
             System.out.println(); // Agregar un salto de línea al final
 
             // Crear instancia de KNN con los datos leídos y el valor de k
-            KNN knn = new KNN(k, DataSet.data); // Cambia 3 por el valor de K que desees
+            KNN knn = new KNN(k, DataSet.data); 
             KNN.calcularDistancias(feature2);
             
             // Obtener los K más cercanos
